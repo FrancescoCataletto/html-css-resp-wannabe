@@ -112,3 +112,26 @@ img {
     height: 25%;
   }
 }
+
+/* #steps media queries */
+
+@media all and (max-width: 419px){
+  #steps h1{
+    font-size: 40px;
+    margin-top: 10px;
+  }
+  
+  #steps .row>.left,
+  #steps .row>.central,
+  #steps .row>.right {
+    float: none;
+    margin: 20px auto 20px auto;
+    width: 100%;
+  }
+  
+  #steps .row img{
+    width: 15%;
+    height: 15%;
+  }
+}
+
