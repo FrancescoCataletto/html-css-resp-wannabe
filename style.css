@@ -91,19 +91,24 @@ img {
     margin-top: 0;
   }
 
+  #lezioni h1{
+    font-size: 50px;
+  }
+
   #lezioni .row>.left,
   #lezioni .row>.right{
     float: none;
     margin: auto;
+    width: auto;
   }
 
   #lezioni .row .left img{
-    width: 30%;
-    height: 30%;
+    width: 15%;
+    height: 15%;
   }
 
   #lezioni .row .right img{
-    width: 50%;
-    height: 50%;
+    width: 25%;
+    height: 25%;
   }
 }
